@@ -1,0 +1,36 @@
+﻿{
+  "version": "0.1.1-rc1-*",
+  "description": "Console application for the Bitcoin to Tedchain gateway.",
+  "authors": [ "Howard Larrison" ],
+  "owners": [ "Tedchain" ],
+  "projectUrl": "https://www.tedchain.network",
+  "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+  "iconUrl": "https://i.imgur.com/tepKuWo.png",
+  "copyright": "Copyright \u00A9 2014-2018 TEDLab Sciences Ltd",
+
+  "userSecretsId": "Tedchain.BitcoinGateway.Module",
+
+  "dependencies": {
+    "Microsoft.AspNet.Cors": "6.0.0-rc1-final",
+    "Microsoft.AspNet.IISPlatformHandler": "1.0.0-rc1-final",
+    "Microsoft.AspNet.Mvc.Core": "6.0.0-rc1-final",
+    "Microsoft.AspNet.Mvc.ViewFeatures": "6.0.0-rc1-final",
+    "Microsoft.AspNet.Server.Kestrel": "1.0.0-rc1-final",
+    "Microsoft.Extensions.DependencyInjection": "1.0.0-rc1-final",
+    "Microsoft.Extensions.Configuration": "1.0.0-rc1-final",
+    "Microsoft.Extensions.Configuration.Json": "1.0.0-rc1-final",
+    "Microsoft.Extensions.Configuration.UserSecrets": "1.0.0-rc1-final",
+    "Microsoft.Extensions.Logging": "1.0.0-rc1-final",
+    "Microsoft.Extensions.Logging.Console": "1.0.0-rc1-final",
+    "Tedchain.BitcoinGateway": "0.1.1-rc1-*"
+  },
+
+  "commands": {
+    "start": "Microsoft.AspNet.Hosting --server Microsoft.AspNet.Server.Kestrel --server.urls http://0.0.0.0:8080"
+  },
+
+  "frameworks": {
+    "dnxcore50": { },
+    "dnx452": { }
+  }
+}

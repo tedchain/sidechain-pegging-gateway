@@ -1,0 +1,40 @@
+﻿{
+  "version": "0.1.1-rc1-*",
+  "description": "Bitcoin to Tedchain gateway.",
+  "authors": [ "Howard Larrison" ],
+  "owners": [ "Tedchain" ],
+  "projectUrl": "https://www.tedchain.network",
+  "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+  "iconUrl": "https://i.imgur.com/tepKuWo.png",
+  "copyright": "Copyright \u00A9 2014-2018 TEDLab Sciences Ltd",
+
+  "dependencies": {
+    "Microsoft.CSharp": "4.0.1-beta-23516",
+    "Google.Protobuf": "3.0.0-*",
+    "NBitcoin": "2.1.4.6",
+    "System.Net.Http": "4.0.1-beta-23516",
+    "Newtonsoft.Json": "7.0.1",
+    "Tedchain.Infrastructure": "0.5.0",
+    "Microsoft.Extensions.Logging.Abstractions": "1.0.0-rc1-final"
+  },
+
+  "frameworks": {
+    "dotnet5.4": {
+      "dependencies": {
+        "System.Collections": "4.0.11-beta-23516",
+        "System.Linq": "4.0.1-beta-23516",
+        "System.Runtime.Extensions": "4.0.11-beta-23516",
+        "System.Text.RegularExpressions": "4.0.11-beta-23516",
+        "System.Globalization": "4.0.11-beta-23516",
+        "System.Reflection.TypeExtensions": "4.0.1-beta-23516",
+        "System.Reflection.Extensions": "4.0.1-beta-23516",
+        "System.Runtime.Numerics": "4.0.1-beta-23516"
+      }
+    },
+    "net451": {
+      "frameworkAssemblies": {
+        "System.Numerics": "4.0.0.0"
+      }
+    }
+  }
+}

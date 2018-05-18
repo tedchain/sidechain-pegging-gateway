@@ -1,0 +1,6 @@
+﻿{
+  "gateway_key": "",
+  "storage_key": "",
+  "bitcoin_api_url": "https://testnet.api.tedchain.network/v1/",
+  "tedchain_server": "http://localhost:5000/"
+}
